@@ -1,0 +1,106 @@
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(#80B4BF, #BAD9D6);
+    color: #8C322A;
+}
+
+h1, h2, h3, h4, p {
+    /*text-shadow: 0 0 1px black;*/
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #373449;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #BAD9D6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #BAD9D6;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-impress:hover {
+    background-image: url("images/impress.webp");
+}
+
+#gift-img-war:hover {
+    background-image: url("images/war.webp");
+}
+
+#gift-img-rocket:hover {
+    background-image: url("images/rocket.webp");
+}
+
+#gift-img-why:hover {
+    background-image: url("images/why.webp");
+}
+
+#footer {
+    /*font-style: italic;*/
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: #8C322A;
+}
